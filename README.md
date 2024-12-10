@@ -1,8 +1,8 @@
 <h1>Beta - Assistente Virtual</h1>
 
-![image](https://github.com/user-attachments/assets/05c94e66-f1dc-421b-8e7e-388eeddcd8f6)
-
 Beta é um projeto de assistente virtual desenvolvido em React Native. Inspirada por conceitos de assistentes como Alexa, Beta traz inovações em inteligência artificial para oferecer uma experiência personalizada.
+
+![betaAI](https://github.com/user-attachments/assets/6c3e79c2-8720-4cc2-aa5c-6dcfd4c05f4a)
 
 <h2>📚 Descrição</h2>
 
