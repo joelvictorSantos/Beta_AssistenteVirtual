@@ -20,41 +20,43 @@ A criação de Beta foi possível graças ao tutorial do canal Becodemy no YouTu
 
 Para executar o projeto, siga as instruções abaixo:
 
-npm run dev
+Abaixe o repositório da beta assistente do github, e execute na IDE
 
-Caso queira ativar o sistema de cadastro, login e envio do formulário para solicitar uma reserva, execute também no prompt de comando:
+Instale as dependências: npm install
 
-npm run backend
+Insira sua chave da API da OpenAI no arquivo home.screen.tsx substituindo apiKey: "" pela sua chave.
 
-Isso iniciará um servidor local que armazenará os dados das reservas e permitirá o acesso aos mesmos no perfil do usuário.
-Acesse a aplicação no navegador e, na seção "Minhas Reservas", visualize suas solicitações de forma organizada.
+Inicie o aplicativo no Expo: npx expo start
+
+Observação: O uso da API da OpenAI requer que o usuário tenha sua própria conta e pague pelos serviços separadamente. A chave de API é indispensável para que a Beta funcione corretamente.
 
 <h2>🚀 Tecnologias</h2>
 
-Este projeto foi desenvolvido utilizando:
+O desenvolvimento da Beta utilizou as seguintes tecnologias e ferramentas:
 
-React.js
+React Native
+ 
+Expo
 
-Npm e Yarn
-
-Simulação de backend com json-server
+OpenAI API
 
 <h2>🛠️ Como Acessar o Site</h2>
 
-Você pode acessar o site clicando no link abaixo, hospedado no Vercel:
+A aplicação pode ser executada em um ambiente de desenvolvimento Expo utilizando o comando:
 
-https://frotasbr-aluguel-carros.vercel.app/
+npx expo start
+
+Certifique-se de que sua chave da API da OpenAI esteja configurada antes de iniciar.
 
 <h2>💡 Possíveis Melhorias</h2>
 
-A aplicação ainda pode ser aprimorada em diversos aspectos, como:
+Algumas ideias para melhorias futuras incluem:
 
-Responsividade: Adaptação para telas de diferentes dispositivos, garantindo uma melhor experiência para usuários móveis.
+Adição de suporte a múltiplos idiomas.
 
-Backend mais robusto: Implementação de um servidor backend completo para melhor gerenciamento dos dados.
+Melhorias na interface do usuário.
 
-Integração de funcionalidades extras: Como filtros avançados e histórico detalhado de reservas.
-Essas melhorias serão consideradas em atualizações futuras.
+Integração com dispositivos IoT para maior funcionalidade.
 
 <h2>📜 Licença</h2>
 
